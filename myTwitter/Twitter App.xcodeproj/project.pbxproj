@@ -185,7 +185,8 @@
 				TargetAttributes = {
 					B9AFF9831E365DF70068B64E = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = CDNF56Z8XT;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -408,7 +409,8 @@
 			baseConfigurationReference = 7B5D9DDB3E156FC626FC666A /* Pods-Twitter App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CDNF56Z8XT;
 				INFOPLIST_FILE = "Twitter App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -424,7 +426,8 @@
 			baseConfigurationReference = C5641866033D81706545792B /* Pods-Twitter App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CDNF56Z8XT;
 				INFOPLIST_FILE = "Twitter App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
